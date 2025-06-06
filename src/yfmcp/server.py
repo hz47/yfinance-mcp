@@ -199,7 +199,7 @@ def get_price_history(
 
 def main():
     logger.info("Starting yfmcp MCP server...")
-    mcp.run(transport="streamable-http")
+    mcp.run(transport="streamable-http", host="0.0.0.0")
 
 
 if __name__ == "__main__":
