@@ -200,4 +200,4 @@ def get_price_history(
 
 def main() -> None:
     logger.info("Starting yfmcp MCP server...")
-    mcp.run(port=8000)
+    mcp.run()
