@@ -4,7 +4,7 @@ from typing import Annotated
 
 import yfinance as yf
 from loguru import logger
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 from pydantic import Field
 from yfinance.const import SECTOR_INDUSTY_MAPPING
 
