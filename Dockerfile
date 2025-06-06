@@ -23,5 +23,5 @@ COPY --from=uv --chown=app:app /app/.venv /app/.venv
 
 ENV PATH="/app/.venv/bin:$PATH"
 
-CMD ["python", "src/yfmcp/server.py"]
+CMD ["python", "-m", "yfmcp.server"]
 
