@@ -198,6 +198,6 @@ def get_price_history(
     return df.to_markdown()
 
 
-def main() -> None:
+if __name__ == "__main__":
     logger.info("Starting yfmcp MCP server...")
     mcp.run()
